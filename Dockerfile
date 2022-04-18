@@ -6,6 +6,6 @@ COPY . .
 RUN chown -R gradle:gradle . # Maybe there's a better way, idk.
 
 USER gradle
-RUN gradle classes
+RUN gradle classes && gradle test
 
 CMD ["gradle", "bootRun"]
