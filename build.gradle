@@ -16,7 +16,7 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-jersey'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	implementation 'com.github.TeamNewPipe:NewPipeExtractor:v0.22.3'
+	implementation 'com.github.TeamNewPipe:NewPipeExtractor:v0.22.5'
 }
 
 tasks.named('test') {
