@@ -1,6 +1,14 @@
-.*
+.git
+.gitignore
+.github
+
+.idea
 *.iml
+
 build
 gradle/
 gradlew
 gradlew.bat
+
+Dockerfile
+.dockerignore
